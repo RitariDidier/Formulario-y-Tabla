@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea 1</title>
+    <link rel="preload" href="css/normalice.css" as="style" />
+    <link rel="stylesheet" href="css/normalice.css" />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="nav-br">
+      <nav class="navegacion-principal">
+        <a href="#">Formulario</a>
+        <a href="tabla.html">Tabla</a>
+      </nav>
+    </div>
+
+    <main class="contenedor">
+      <form action="" class="formulario">
+        <fieldset>
+          <legend>Formularios</legend>
+
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label for="">Nombre</label>
+              <input
+                class="input-text"
+                type="text"
+                placeholder="Ingresa tu nombre completo"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="">Email</label>
+              <input
+                class="input-text"
+                type="email"
+                placeholder="Ingresa tu direccion de correo"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="">Telefono</label>
+              <input
+                class="input-text"
+                type="tel"
+                placeholder="Ingresa tu numero de telefono"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="">Fecha de nacimiento</label>
+              <input class="input-text" type="date" placeholder="" />
+            </div>
+          </div>
+          <!-- Radios -->
+          <div class="contenedor-radio">
+            <div class="tit">
+              <label>Carrera :</label>
+            </div>
+
+            <div class="radio-carreras">
+              <input type="radio" placeholder="" />
+              <label for="">Ingeneria Informatica</label>
+            </div>
+
+            <div class="radio-carreras">
+              <input type="radio" placeholder="" />
+              <label for="">Ingeneria civil Informatica</label>
+            </div>
+
+            <div class="radio-carreras">
+              <input type="radio" placeholder="" />
+              <label for=""
+                >Ingeneria civil industrial mencion Informatica</label
+              >
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <div class="campo">
+        <label for="">Año de Ingreso</label>
+        <input
+          class="input-text"
+          type="text"
+          placeholder="Ingresa tu Año de Ingreso"
+        />
+      </div>
+      <div>
+        <input class="boton" type="submit" value="enviar" />
+      </div>
+    </main>
+  </body>
+</html>
